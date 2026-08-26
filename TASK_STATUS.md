@@ -8,8 +8,6 @@ Supported fruits:
 
 - Apple
 - Banana
-- Guava
-- Mosambi
 
 Freshness score:
 
@@ -18,7 +16,7 @@ Freshness score:
 
 The system estimates visible external condition only.
 
-It does NOT scientifically determine food safety.
+It does NOT assess internal rot, pathogens, pesticide safety, nutrition, or guaranteed shelf life.
 
 ---
 
@@ -167,8 +165,6 @@ Classes:
 
 - apple
 - banana
-- guava
-- mosambi
 
 Expected:
 
@@ -617,14 +613,28 @@ Possible future features:
 
 ---
 
+# COMPLETED TASKS
+
+- TASK-001: Read blueprint + inspect repo
+- TASK-002: Normalize docs to Apple/Banana
+- TASK-004: Client shell + camera screen
+- TASK-005: Detector adapter
+- TASK-006: Live overlay + unsupported/multiple states
+- TASK-007: Frame sampling + stability
+- TASK-008: Quality gate
+- TASK-009: Best-frame selection + auto capture
+- TASK-010: Freshness baseline
+- TASK-011: Score engine + uncertainty
+- TASK-012: Scan API + persistence
+
 # CURRENT TASK
 
-TASK-001
+TASK-013
 
 Status: NOT_STARTED
 
 Next action:
 
-Inspect the repository and implement the minimal FastAPI backend foundation.
+Build Result Screen UI.
 
-Do not start TASK-002 until TASK-001 passes its acceptance criteria.
+Do not start the next task until TASK-013 passes its acceptance criteria.
